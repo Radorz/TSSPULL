@@ -10,7 +10,7 @@ namespace TSSPULL.Data
 
     public static class SqlConnectionHelper
     {
-        private static string connectionString = "Server=DESKTOP-L5MK9TJ\\SQLEXPRESS;Database=TSSDB;Trusted_Connection=True;";
+        private static string connectionString = "Server=.;Database=TSSDB;Trusted_Connection=True;";
 
         public static SqlConnection GetConnection()
         {
